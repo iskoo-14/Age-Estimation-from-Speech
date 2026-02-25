@@ -3,7 +3,6 @@
 **Politecnico di Torino**  
 Ismail Aljosevic – s337769  
 
----
 
 ## 📌 Project Overview
 
@@ -16,14 +15,10 @@ The dataset consists of:
 
 The approach combines acoustic, linguistic, and newly extracted audio features, followed by feature selection, dimensionality reduction, and regression modeling.
 
----
-
 ## 📄 Project Files
 
 - `report.pdf` – full lab report (readable independently of the code)
 - `software.ipynb` – complete implementation of preprocessing, feature extraction, model training, and evaluation
-
----
 
 ## ⚙ Methodology
 
@@ -55,8 +50,6 @@ $$
 RMSE = \sqrt{\frac{1}{N} \sum (y_i - \hat{y}_i)^2}
 $$
 
----
-
 ## 📊 Results Summary
 
 Best evaluation results:
@@ -69,8 +62,6 @@ Best evaluation results:
 
 - Linear Regression with RFECV achieved the best performance.
 - PCA improved cross-validation performance but did not improve evaluation results.
-
----
 
 ## 🎯 Conclusion
 
